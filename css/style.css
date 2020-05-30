@@ -44,14 +44,16 @@
 /*-- Common Style --*/
 *, *::after, *::before {
   box-sizing: border-box;
+  
 }
 
- *nav li{
- font-size: 100px;
+.containerr{
+  max-width: 1440px;
 }
 .main_menu nav > ul > li > a {
   display: none;
-  font-size: 12px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .padding {
@@ -64,9 +66,10 @@
 
 
 .banner_gallery_area {
-  background-color: #242424;
+  background-color: #020306;
   color: #fff;
 }
+
 
 .brand_padding .brand_container  {
   background-color: #fff !important;
@@ -189,7 +192,7 @@ figure {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1080px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -672,9 +675,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   padding: 7px 0;
 }
 .header_middle{
- background-color: #333;
- color: #fff;
- 
+ background-color:#f6f6f6;
+ color: #020306;
 
 }
 
@@ -939,9 +941,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     max-width: 120px;
   }
 }
-
+.logo{
+  margin: 0;
+  padding: 0;
+  
+  width: 267px;
+}
 .header_middle {
-  padding: 24px 0;
+  padding: 12px 0;
   position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1180,6 +1187,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .menu_position {
   position: relative;
 }
+.main_menu {
+ padding-right: 20px;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main_menu {
@@ -1223,8 +1233,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .main_menu nav > ul > li > a {
   display: block;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
   padding: 10px 30px;
   text-transform: capitalize;
   font-weight: 400;
@@ -4430,7 +4440,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /*home two css here*/
 .testimonial_two {
-  background: #333;
+  background: #020306;
   padding: 94px 0;
   color: #fff;
 }
