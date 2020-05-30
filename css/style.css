@@ -44,8 +44,10 @@
 /*-- Common Style --*/
 *, *::after, *::before {
   box-sizing: border-box;
+  text-align: center;
   
 }
+
 
 .containerr{
   max-width: 1440px;
@@ -2077,7 +2079,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /*04. banner section css here */
 .banner_gallery_area {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner_gallery_area {
@@ -4557,11 +4559,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin-bottom: 22px;
   text-transform: capitalize;
   font-weight: 400;
-  color: #00000;
+  color: #000000;
 }
 
 .copyright_area p {
-  color: #f6f6f6;
+  color: #000000;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
