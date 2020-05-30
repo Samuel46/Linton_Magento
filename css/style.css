@@ -45,6 +45,7 @@
 *, *::after, *::before {
   box-sizing: border-box;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
   
 }
 
@@ -417,6 +418,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .mb-100 {
   margin-bottom: 100px;
 }
+
+/* product area */
 
 /* 02. Element */
 .button {
@@ -2523,6 +2526,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .product_header {
   margin-bottom: 30px;
+  margin-top: 100px;
 }
 .product_header .section_title {
   margin-bottom: 0;
@@ -2543,12 +2547,13 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 .section_title h2 {
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
   display: inline-block;
   margin-bottom: 0;
   letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section_title h2 {
@@ -5185,9 +5190,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .widget_sid_product .section_title {
   margin-bottom: 23px;
+  padding: 100px;
 }
 .widget_sid_product .section_title h2 {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 22px;
   letter-spacing: 1px;
 }
