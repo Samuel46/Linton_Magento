@@ -66,8 +66,8 @@
 
 
 .banner_gallery_area {
-  background-color: #020306;
-  color: #fff;
+  background-color: #f6f6f6;
+  color: #000000;
 }
 
 
@@ -614,9 +614,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   position: fixed;
   z-index: 99;
   width: 100%;
-  color: #fff;
+  color: #000000;
   top: 0;
-  background: rgba(14, 13, 13, 0.9);
+  background: #f6f6f6;
   box-shadow: 0 1px 3px rgba(236, 234, 234, 0.11);
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -4522,8 +4522,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*  07. footer area css here */
 .footer_top {
   padding: 95px 0;
-  background: #020306;
-  color: #fff;
+  background: #f6f6f6;
+  color: #000000;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer_top {
@@ -4557,11 +4557,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin-bottom: 22px;
   text-transform: capitalize;
   font-weight: 400;
-  color: #fff;
+  color: #00000;
 }
 
 .copyright_area p {
-  color: #fff;
+  color: #f6f6f6;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4672,7 +4672,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .footer_bottom {
   padding: 16px 0;
-  background-color: #242424;
+  background-color: #f6f6f6;
 }
 @media only screen and (max-width: 767px) {
   .footer_bottom {
