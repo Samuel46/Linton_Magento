@@ -48,6 +48,36 @@
   font-family: 'Montserrat', sans-serif;
   
 }
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+/* visual hedare with fonts size */
+.visual_fonts {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  font-family:'Montserrat', sans-serif !important;
+}
+.product_fonts {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.products_prices_fonts {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.product_name {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 800 !important;
+}
+
+.price_box {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
 
 
 .containerr{
@@ -60,7 +90,10 @@
 }
 
 .padding {
-  padding-right: 30px;
+  padding-right: 200px;
+}
+.paddingg {
+  padding-right: 50px;
 }
 .gridoo {
   display: grid;
@@ -69,7 +102,7 @@
 
 
 .banner_gallery_area {
-  background-color: #f6f6f6;
+  background-color: #ffffff !important;
   color: #000000;
 }
 
@@ -80,6 +113,8 @@
 
 html, body {
   height: 100%;
+  background-color: #fff ! important;
+ 
 }
 
 body {
@@ -97,6 +132,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   font-family: "Work Sans", sans-serif;
 }
+
+
 
 h1 {
   font-size: 48px;
@@ -227,6 +264,9 @@ figure {
 -----------------------------------------*/
 .bg-white {
   background-color: #ffffff;
+}
+.bg-white_all {
+  background-color: #fff;
 }
 
 .bg-light-grey {
@@ -699,7 +739,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .main_header {
-    padding: 27px 0;
+    padding: 27px 0 27px;
   }
 }
 
@@ -5471,6 +5511,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     max-width: 100%;
   }
 }
+
 
 .grid_list .single_product {
   border: 0;
