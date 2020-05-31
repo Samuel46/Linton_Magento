@@ -48,6 +48,23 @@
   font-family: 'Montserrat', sans-serif;
   
 }
+
+/* newletter section */
+.news_title {
+position: absolute;
+
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+
+
+
+color: #000000;
+
+}
+
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 /* visual hedare with fonts size */
@@ -4609,6 +4626,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .copyright_area p {
   color: #000000;
+  text-align: left !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4628,6 +4646,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     text-align: center !important;
   }
 }
+.widget_menu h3{
+  text-align: left !important;
+}
 
 .footer_menu ul li {
   margin-bottom: 10px;
@@ -4641,6 +4662,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-size: 16px;
   line-height: 30px;
   text-transform: capitalize;
+  text-align: left !important;
 }
 .footer_menu ul li a:hover {
   color: #d52121;
@@ -4797,7 +4819,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .breadcrumb_content ul li a:hover {
   color: #d52121;
 }
-
+.sidebar_widget h3, .sidebar_widget li a  {
+  text-align: left !important;
+}
 .sidebar_widget .single_banner {
   border: 0;
 }
