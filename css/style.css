@@ -51,7 +51,17 @@
   box-sizing: border-box;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+ 
 
+}
+/* BARNDS_CENTER */
+.brand_center h1 {
+ text-align: center !important;
+ 
+}
+.brand_color {
+  background-color: #000000 !important;
+  color: #fff !important;
 }
 /* color filter */
 
@@ -241,7 +251,9 @@
         
 .border-section {
   border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd; }
+  border-bottom: 1px solid #dddddd;
+background-color: #f7f7f7;
+}
   .subscribe {
     text-align: center; }
     .subscribe h4 {
@@ -277,6 +289,11 @@
     .subscribe-form.classic-form .btn-outline {
       margin-bottom: 0 !important; }
 
+      .social_color {
+        background-color: #020306 !important;
+        border-radius: 5px;
+      }
+
       button {
         cursor: pointer; }
       
@@ -301,7 +318,7 @@
         letter-spacing: 0.05em;
         border: 2px solid var(--theme-deafult);
         background-image: linear-gradient(30deg, var(--theme-deafult) 50%, transparent 50%);
-        background-size: 850px;
+        background-size: 1090px;
         background-repeat: no-repeat;
         background-position: 0;
         -webkit-transition: background 300ms ease-in-out;
@@ -451,8 +468,8 @@ footer .btn-solid {
 }
 
 .banner_gallery_area {
-  background-color: 		#F0F0F0!important;
-  color: #000000;
+  background-color: 		#000000;
+  color: #F0F0F0!important;
 }
 
 .brand_padding .brand_container {
@@ -463,6 +480,7 @@ html,
 body {
   height: 100%;
   background-color: #fff !important;
+
 }
 
 body {
@@ -528,6 +546,9 @@ button {
   line-height: inherit;
   text-decoration: none;
   cursor: pointer;
+}
+.button_width {
+  width: 100%;
 }
 
 a,
@@ -1105,7 +1126,7 @@ textarea:-ms-input-placeholder {
 .header_top {
   border-bottom: 1px solid #ccc;
   position: relative;
-  padding: 12px 0;
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_top {
@@ -1724,12 +1745,14 @@ textarea:-ms-input-placeholder {
   float: left;
 }
 .mega_menu_inner > li > a {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
   margin-bottom: 12px;
+  text-align: left!important;
+  
 }
 .mega_menu_inner > li > a:hover {
   color: #d52121;
@@ -1749,6 +1772,7 @@ textarea:-ms-input-placeholder {
   display: block;
   line-height: 30px;
   text-transform: capitalize;
+  text-align: left!important;
 }
 .mega_menu_inner > li ul li a:hover {
   color: #d52121;
@@ -4940,9 +4964,9 @@ textarea:-ms-input-placeholder {
 
 /*  07. footer area css here */
 .footer_top {
-  padding: 95px 0;
-  background: #f6f6f6;
-  color: #000000;
+  padding: 65px 0;
+  background: #000000;
+  color: #f6f6f6;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer_top {
@@ -4976,11 +5000,11 @@ textarea:-ms-input-placeholder {
   margin-bottom: 22px;
   text-transform: capitalize;
   font-weight: 400;
-  color: #000000;
+  color: #fff;
 }
 
 .copyright_area p {
-  color: #000000;
+  color: #fff;
   text-align: left !important;
 }
 
@@ -5096,7 +5120,9 @@ textarea:-ms-input-placeholder {
 
 .footer_bottom {
   padding: 16px 0;
-  background-color: #f6f6f6;
+  background-color: #000000;
+  border-top: 0.8px solid #fff;
+ 
 }
 @media only screen and (max-width: 767px) {
   .footer_bottom {
@@ -7751,9 +7777,7 @@ textarea:-ms-input-placeholder {
   }
 }
 .account_form form {
-  border: 1px solid #ededed;
-  padding: 23px 20px 29px;
-  border-radius: 5px;
+  
 }
 .account_form label {
   font-size: 16px;
@@ -7792,6 +7816,11 @@ textarea:-ms-input-placeholder {
 }
 .account_form button:hover {
   background: #333;
+}
+/* grid_login */
+.grid_login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .login_submit label input[type="checkbox"] {
