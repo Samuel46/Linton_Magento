@@ -1,5 +1,8 @@
 :root {
-  --theme-deafult: #A87E6F;}
+  --theme-deafult: #A87E6F;
+  --theme-deafultt: #000000;
+
+}
 
 
 /*-----------------------------------------------------------------------------------
@@ -49,10 +52,21 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  text-align: center;
+  
   font-family: "Montserrat", sans-serif;
  
 
+}
+/* product positioning */
+
+.product_content {
+ text-align: center;
+}
+.slider_content {
+  text-align: center;
+}
+.center {
+  text-align: center!important ;
 }
 /* BARNDS_CENTER */
 .brand_center h1 {
@@ -220,6 +234,22 @@
   color: #000000;
 }
 
+.ship_img {
+  width: 80px;
+height: 80px;
+}
+.tr_position {
+  padding-right: 20px;
+}
+
+.ship_box {
+  padding: 10px 10px 10px 10px;
+  margin-left: 100px;
+  background: rgba(196, 196, 196, 0.2);
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
 
 .small-section {
   padding-top: 35px;
@@ -333,6 +363,29 @@ background-color: #f7f7f7;
         .btn-solid:focus {
           color: #ffffff; }
 
+          /* btn-solid for registration form */
+          .btn-solidd {
+            padding: 13px 29px;
+            color: #ffffff;
+            letter-spacing: 0.05em;
+            border: 2px solid var(--theme-deafult);
+            background-image: linear-gradient(30deg, var(--theme-deafultt) 50%, transparent 50%);
+            background-size: 1090px;
+            background-repeat: no-repeat;
+            background-position: 0;
+            -webkit-transition: background 300ms ease-in-out;
+            transition: background 300ms ease-in-out; }
+            .btn-solidd:hover {
+              background-position: 100%;
+              color: var(--theme-deafult);
+              background-color: #ffffff; }
+            .btn-solidd.black-btn {
+              background-image: linear-gradient(30deg,var(--theme-deafult) 50%, transparent 50%);
+              border: 2px solid var(--theme-deafult);; }
+            .btn-solidd:focus {
+              color: #ffffff; }
+          /* end of the registration form */
+
           @media (max-width: 420px){
         .footer-light .subscribe-form .form-control {
     width: 280px;
@@ -423,6 +476,7 @@ footer .btn-solid {
   font-size: 20px !important;
   font-weight: bold !important;
   font-family: "Montserrat", sans-serif !important;
+  text-align: center;
 }
 .product_fonts {
   font-family: "Open Sans", sans-serif;
@@ -449,6 +503,11 @@ footer .btn-solid {
 
 .containerr {
   max-width: 1440px;
+}
+.year_grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3px;
 }
 .main_menu nav > ul > li > a {
   display: none;
@@ -612,6 +671,7 @@ figure {
 .container {
   max-width: 1080px;
 }
+
 
 @media only screen and (max-width: 767px) {
   .container {
@@ -6060,6 +6120,7 @@ textarea:-ms-input-placeholder {
 
 .header_product {
   border-bottom: 1px solid #ededed;
+  text-align: left !important;
 }
 
 .product_d_right h1 {
@@ -6149,6 +6210,7 @@ textarea:-ms-input-placeholder {
 .product_d_right .product_desc p {
   font-size: 14px;
   line-height: 26px;
+  text-align: left !important;
 }
 .product_d_right .priduct_social ul li {
   display: inline-block;
@@ -6276,7 +6338,7 @@ textarea:-ms-input-placeholder {
   margin-bottom: 0;
 }
 .product_variant.quantity input {
-  width: 130px;
+  width: 150pxpx;
   border: 1px solid #ebebeb;
   background: none;
   height: 42px;
@@ -6286,7 +6348,7 @@ textarea:-ms-input-placeholder {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .product_variant.quantity input {
-    width: 110px;
+    width: 250px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6304,11 +6366,16 @@ textarea:-ms-input-placeholder {
   border: 0;
   font-size: 16px;
   margin-left: 20px;
-  background: #d52121;
+  background: #A87E6F;
   height: 42px;
   line-height: 42px;
   text-transform: capitalize;
   min-width: 270px;
+
+  /*  */
+  border: 1px solid #F42D3E;
+box-sizing: border-box;
+border-radius: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .product_variant.quantity button {
@@ -7003,6 +7070,23 @@ textarea:-ms-input-placeholder {
 }
 
 /* 13. cart page css here */
+
+.inner_grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+}
+.button_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.table_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.shoping_center {
+  text-align: center !important;
+}
+
 .header_cart_page {
   border-bottom: 1px solid #ededed;
 }
@@ -7021,8 +7105,9 @@ textarea:-ms-input-placeholder {
   width: 100%;
 }
 .table_desc .cart_page table thead tr th {
-  border-bottom: 3px solid #d52121;
-  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+  
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
@@ -7433,8 +7518,8 @@ textarea:-ms-input-placeholder {
   line-height: 30px;
   padding: 5px 10px;
   text-transform: uppercase;
-  color: #ffffff;
-  background: #333;
+  color: #333;
+ 
   font-weight: 500;
 }
 .checkout_form input {
@@ -7549,8 +7634,13 @@ textarea:-ms-input-placeholder {
   }
 }
 
+.white_bg_table {
+  
+}
+
 .order_table {
   margin-bottom: 35px;
+ 
 }
 .order_table table {
   width: 100%;
@@ -7776,8 +7866,9 @@ textarea:-ms-input-placeholder {
     margin-bottom: 20px;
   }
 }
-.account_form form {
-  
+.account_form  {
+  text-align: center;
+  position: absoulute;
 }
 .account_form label {
   font-size: 16px;
