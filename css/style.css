@@ -39,6 +39,10 @@
   box-sizing: border-box;
 }
 
+.ion-ios-apps {
+  content: \f10a;
+}
+
 /* transition */
 /* flex */
 /* transform */
@@ -56,6 +60,22 @@
   font-family: "Montserrat", sans-serif;
  
 
+}
+/* H1 and H2 brands */
+.h2_brand {
+  color: #fff !important;
+  font-weight: 700;
+
+}
+.h1_brand {
+  color: #fe3737 !important;
+  font-weight: 700;
+  z-index: 1 !important;
+  
+}
+
+.p_center  {
+  margin-left: 85px;
 }
 .canvas_open {
  margin-bottom: 40px;
@@ -189,6 +209,11 @@
 .color_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* product button */
+.product_btn {
+  margin-left: 30px
 }
   
 
@@ -409,7 +434,10 @@ background-color: #f7f7f7;
     display: inline-block;
     width: auto;
     vertical-align: middle;
+  
 }
+
+
 }
 
 @media (max-width: 991px) {
@@ -460,6 +488,10 @@ footer .btn-solid {
 .subscribe h4 {
     display: block;
 }
+.p_center {
+  display: none;
+}
+
 }
 
 @media (max-width: 577px) {
@@ -481,6 +513,12 @@ footer .btn-solid {
     padding: 7px 15px;
     margin-bottom: 10px;
 } }
+
+.b_position {
+  width: 150px ! important;
+  text-align: center !  important;
+  margin-top: 10px !important;
+}
 
     
   
@@ -697,6 +735,10 @@ figure {
 @media only screen and (max-width: 479px) {
   .container {
     width: 100%;
+  }
+  .button_grid {
+    grid-template-columns: 1fr !important;
+    margin-left: 50px;
   }
 }
 .capitalize {
@@ -1197,6 +1239,10 @@ textarea:-ms-input-placeholder {
   .main_header {
     padding: 34px 0 34px;
   }
+ 
+    .brand_header {
+      padding: 5px 0 5px ! important;
+    }
 }
 
 .header_top {
@@ -7140,6 +7186,7 @@ border-radius: 10px;
 .button_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+ 
 }
 .table_grid {
   display: grid;
