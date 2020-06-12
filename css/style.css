@@ -5542,11 +5542,10 @@ textarea:-ms-input-placeholder {
   background: none;
   border: none;
   font-size: 12px;
-  float: right;
   text-align: right;
   line-height: 31px;
   width: 100%;
-  padding-right: 87px!important;
+  padding-right: 75px!important;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .widget_list.widget_filter form input {
